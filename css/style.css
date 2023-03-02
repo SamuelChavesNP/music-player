@@ -5,9 +5,23 @@ body, html, main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #333;
+  background-color: #0a0a0a;
   color: #fff;
   font-family: 'Orbitron', sans-serif;
+  height: 100vh;
+}
+
+main{ 
+  background: #000;
+  border-radius: 20px;
+  padding: 30px 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header img{
+  width: 150px;
+  margin-bottom: 20px;
 }
 
 .cover img {
@@ -46,13 +60,13 @@ h2{
 progress {
   height: 6px;
   width: 50%;
-  background-color: #333;
+  background-color: #18D860;
 }
 
 .ponto {
   width: 20px;
   height: 20px;
-  background-color: #eee;
+  background-color: #18D860;
   border-radius: 50%;
   margin-left: -2px;
 }
